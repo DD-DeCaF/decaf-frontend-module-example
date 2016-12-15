@@ -124,10 +124,10 @@ installed typings you may find a clue as to what you should import.
 
 When frontend module is changed (updated on github), a few manual actions are needed to deploy it.
 
-1. trigger a build on
+1. Trigger a build on
    [decaf-frontend docker hub](https://hub.docker.com/r/dddecaf/decaf-frontend/~/settings/automated-builds/). Pay
    attention to which image is deployed at the moment.
-2. Wait until new image is built (see the build [status pagge](https://hub.docker.com/r/dddecaf/decaf-frontend/builds/)
+2. Wait until new image is built (see the [build status page](https://hub.docker.com/r/dddecaf/decaf-frontend/builds/))
 3. Redeploy `decaf-frontend`
    [stack on docker cloud](https://cloud.docker.com/app/dddecaf/stack/4ceb7e27-963f-4d22-85dd-96eaa210ffee/general). Make
    sure to not "Reuse existing container volumes?" as old frontend
